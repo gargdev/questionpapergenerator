@@ -1,6 +1,3 @@
-Certainly! If you want to keep the structure consistent for both the backend and frontend sections in your README, you can modify it as follows:
-
-```markdown
 # Question Paper Generator
 
 This project is a Question Paper Generator with a consistent structure for both the backend and frontend. Follow the instructions below to set up and run the application.
