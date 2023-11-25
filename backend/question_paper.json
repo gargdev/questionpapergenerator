@@ -1,0 +1,142 @@
+[
+    {
+        "question": "What is the speed of light?",
+        "subject": "Physics",
+        "topic": "Waves",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Explain Newton's first law of motion.",
+        "subject": "Physics",
+        "topic": "Dynamics",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "Describe the process of photosynthesis.",
+        "subject": "Biology",
+        "topic": "Plant Biology",
+        "difficulty": "Hard",
+        "marks": 15
+    },
+    {
+        "question": "Define the concept of an ecosystem.",
+        "subject": "Biology",
+        "topic": "Ecology",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Discuss the principles of object-oriented programming.",
+        "subject": "Computer Science",
+        "topic": "Programming",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "What is the Pythagorean Theorem?",
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Explain the theory of relativity.",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Hard",
+        "marks": 20
+    },
+    {
+        "question": "Describe the structure of DNA.",
+        "subject": "Biology",
+        "topic": "Genetics",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "What is a derivative in calculus?",
+        "subject": "Mathematics",
+        "topic": "Calculus",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "Outline the process of cellular respiration.",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "marks": 15
+    },
+    {
+        "question": "What is the principle of superposition in physics?",
+        "subject": "Physics",
+        "topic": "Quantum Mechanics",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "Describe the Krebs cycle.",
+        "subject": "Biology",
+        "topic": "Biochemistry",
+        "difficulty": "Hard",
+        "marks": 15
+    },
+    {
+        "question": "Explain the concept of polymorphism in computer programming.",
+        "subject": "Computer Science",
+        "topic": "Object-Oriented Programming",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "What is the difference between classical and operant conditioning?",
+        "subject": "Psychology",
+        "topic": "Behavioral Psychology",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "Define and explain the significance of Gross Domestic Product (GDP).",
+        "subject": "Economics",
+        "topic": "Macroeconomics",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Describe the process of mitosis.",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Explain the significance of the Magna Carta in world history.",
+        "subject": "History",
+        "topic": "Medieval History",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "What are the basic principles of the Keynesian economic theory?",
+        "subject": "Economics",
+        "topic": "Economic Theories",
+        "difficulty": "Hard",
+        "marks": 15
+    },
+    {
+        "question": "Describe the Heisenberg Uncertainty Principle.",
+        "subject": "Physics",
+        "topic": "Quantum Mechanics",
+        "difficulty": "Hard",
+        "marks": 20
+    },
+    {
+        "question": "Explain the concept of inheritance in object-oriented programming.",
+        "subject": "Computer Science",
+        "topic": "Software Engineering",
+        "difficulty": "Easy",
+        "marks": 5
+    }
+]

@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  margin: 20px;
+  align-items: center;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input, button {
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  outline: none;
+  border: 2px solid blue;
+  font-size: 16px;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+li{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  background-color: aquamarine;
+  padding: 2em;
+  width: 400px;
+  height: 350px;
+  margin: 20px;
+}
