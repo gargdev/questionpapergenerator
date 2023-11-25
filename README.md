@@ -1,9 +1,9 @@
-Certainly! Below is an example of a README file that you can include in your project. This assumes you have separate directories for the backend and frontend, and the backend script is named `generatePaper.js`:
+Certainly! If you want to keep the structure consistent for both the backend and frontend sections in your README, you can modify it as follows:
 
 ```markdown
 # Question Paper Generator
 
-This project is a Question Paper Generator with separate components for the backend and frontend. Follow the instructions below to set up and run the application.
+This project is a Question Paper Generator with a consistent structure for both the backend and frontend. Follow the instructions below to set up and run the application.
 
 ## Backend Setup
 
