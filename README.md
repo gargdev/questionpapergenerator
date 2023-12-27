@@ -1,53 +1,71 @@
 # Question Paper Generator
 
-This project is a Question Paper Generator with a consistent structure for both the backend and frontend. Follow the instructions below to set up and run the application.
+This is a web application built with React and Express that allows users to generate a custom question paper based on specified criteria such as total marks and percentage distribution for easy, medium, and hard difficulty levels. The application utilizes a server hosted on [https://papergeneratorbackend.onrender.com/](https://papergeneratorbackend.onrender.com/) to fetch and process questions from a JSON file and returns a generated question paper to the user.
 
-## Backend Setup
+## Live Demo
 
-1. Open a terminal and navigate to the `backend` directory:
+You can access the live demo of the Question Paper Generator [here](https://generatequestionpaper.netlify.app/).
 
-```bash
-cd backend
-```
+## Getting Started
 
-2. Install the dependencies using npm:
+To run this application locally, follow the steps below:
 
-```bash
-npm install
-```
+1. Clone the repository:
 
-3. After installing the dependencies, run the following command to start the backend server:
+   ```bash
+   git clone <repository-url>
+   ```
 
-```bash
-node generatePaper.js
-```
+2. Navigate to the project directory:
 
-The backend server will now be running.
+   ```bash
+   cd <project-directory>
+   ```
 
-## Frontend Setup
+3. Install dependencies:
 
-1. Open a new terminal window (while keeping the backend terminal open) and navigate to the `frontend` directory:
+   ```bash
+   npm install
+   ```
 
-```bash
-cd frontend
-```
+4. Run the application:
 
-2. Install the frontend dependencies using npm:
+   ```bash
+   npm start
+   ```
 
-```bash
-npm install
-```
+   This will start the React development server.
 
-3. After installing the dependencies, run the following command to start the frontend application:
+5. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
 
-```bash
-npm start
-```
+## Server Setup
 
-The frontend application will now be accessible in your browser at `http://localhost:3000`.
+The server is implemented using Express and is hosted on [https://papergeneratorbackend.onrender.com/](https://papergeneratorbackend.onrender.com/). It exposes a single endpoint (`/generate-paper`) for generating question papers based on the provided criteria.
 
-## Usage
+## How to Use
 
-Visit `http://localhost:3000` in your web browser to use the Question Paper Generator. The frontend communicates with the backend, which generates question papers based on the provided inputs.
+1. Enter the total marks for the question paper.
+2. Specify the percentage distribution for easy, medium, and hard difficulty levels.
+3. Click the "Generate Paper" button to initiate the process.
+4. The generated question paper will be displayed, showing questions with details such as question text, subject, topic, difficulty, and marks.
 
-Feel free to explore and customize the code to meet your specific requirements.
+## File Structure
+
+- `src/App.js`: React component for the frontend application.
+- `server.js`: Express server implementation for generating question papers.
+- `question_paper.json`: JSON file containing a pool of questions.
+
+## Dependencies
+
+- React: Frontend library for building user interfaces.
+- Express: Backend framework for building web applications.
+- cors: Middleware for enabling Cross-Origin Resource Sharing.
+- fs: Node.js module for working with the file system.
+
+## Acknowledgments
+
+This project is inspired by the need for a flexible and customizable question paper generation tool. It can be extended and customized further to suit specific requirements.
+
+Feel free to explore, modify, and contribute to make it even more powerful and user-friendly. If you have any suggestions or issues, please open an [issue](<link-to-issues>) or submit a [pull request](<link-to-pull-requests>).
+
+Happy generating! 🚀
