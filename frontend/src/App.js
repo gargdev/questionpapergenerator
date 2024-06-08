@@ -31,7 +31,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (validateForm()) {
-      const response = await fetch("http://localhost:8080/generate-paper", {
+      const response = await fetch("https://questionpapergenerator-backend.onrender.com/generate-paper", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
