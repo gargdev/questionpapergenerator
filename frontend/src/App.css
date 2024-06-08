@@ -1,44 +1,169 @@
+/* App.css */
+
 .App {
   text-align: center;
   margin: 20px;
-  align-items: center;
 }
 
-form {
-  margin: 20px 0;
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  animation: fadeIn 1s ease-in-out;
 }
 
-input, button {
+.App-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #61dafb;
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.feedback {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+form.form-container {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease-in-out;
+}
+
+input, select, button {
   margin: 10px;
   border-radius: 10px;
   text-align: center;
   padding: 10px;
   outline: none;
-  border: 2px solid blue;
+  border: 2px solid #007bff;
   font-size: 16px;
 }
 
-button:hover{
-  cursor: pointer;
-  background-color: black;
-  color: aliceblue;
+input:focus, select:focus {
+  border-color: #17a2b8;
 }
 
-ul{
+ul.questions-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
-  align-items: center;
-  justify-content: flex-start;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
-li{
+li.question-item {
   display: flex;
   flex-direction: column;
   text-align: start;
-  background-color: aquamarine;
-  padding: 2em;
-  width: 400px;
-  height: 350px;
-  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+li.question-item:hover {
+  transform: translateY(-5px);
+}
+
+li.question-item p {
+  margin: 5px 0;
+}
+
+li.question-item b {
+  color: #007bff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.home-content {
+  margin-top: 50px;
+}
+
+.home-content h2 {
+  font-size: 2rem;
+}
+
+.home-content p {
+  font-size: 1.1rem;
+}
+
+.home-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.home-content ul li {
+  margin-bottom: 10px;
 }
