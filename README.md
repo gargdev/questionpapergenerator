@@ -4,7 +4,7 @@ This is a web application built with React and Express that allows users to gene
 
 ## Live Demo
 
-You can access the live demo of the Question Paper Generator [here](https://generatequestionpaper.netlify.app/).
+You can access the live demo of the Question Paper Generator [here](https://mocktestgenerator.netlify.app/).
 
 ## Getting Started
 
