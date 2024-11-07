@@ -16,7 +16,7 @@ To run this application locally, follow the steps below:
    git clone <repository-url>
    ```
 
-2. Navigate to the project directory:
+2. Navigate to the project directory test:
 
    ```bash
    cd <project-directory>
