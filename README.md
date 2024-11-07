@@ -10,7 +10,7 @@ You can access the live demo of the Question Paper Generator [here](https://mock
 
 To run this application locally, follow the steps below:
 
-1. Clone the repository:
+1. Clone the repository and:
 
    ```bash
    git clone <repository-url>
